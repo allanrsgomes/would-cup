@@ -1,8 +1,8 @@
-import { Center, Text, Pressable, IPressableProps } from 'native-base';
+import { Center, Text, Pressable, IPressableProps } from 'native-base'
 
 interface Props extends IPressableProps {
-  title: string;
-  isSelected: boolean;
+  title: string
+  isSelected: boolean
 }
 
 export function Option({ title, isSelected = false, ...rest }: Props) {

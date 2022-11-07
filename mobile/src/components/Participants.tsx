@@ -1,16 +1,16 @@
-import { Avatar, Center, HStack, Text } from 'native-base';
+import { Avatar, Center, HStack, Text } from 'native-base'
 
 export interface ParticipantProps {
-  id: string;
+  id: string
   user: {
-    name: string;
-    avatarUrl: string;
+    name: string
+    avatarUrl: string
   };
 };
 
 interface Props {
-  participants: ParticipantProps[];
-  count: number;
+  participants: ParticipantProps[]
+  count: number
 };
 
 export function Participants({participants, count }: Props) {

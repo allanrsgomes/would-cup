@@ -1,4 +1,4 @@
-import { Text } from 'native-base';
+import { Text } from 'native-base'
 
 export function EmptyRakingList() {
   return (

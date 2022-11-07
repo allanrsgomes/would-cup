@@ -1,12 +1,12 @@
-import { HStack } from 'native-base';
-import CountryFlag from "react-native-country-flag";
+import { HStack } from 'native-base'
+import CountryFlag from "react-native-country-flag"
 
-import { Input } from './Input';
+import { Input } from './Input'
 
 interface Props {
-  code: string;
-  position: 'left' | 'right';
-  onChangeText: (value: string) => void;
+  code: string
+  position: 'left' | 'right'
+  onChangeText: (value: string) => void
 }
 
 export function Team({ code, position, onChangeText }: Props) {

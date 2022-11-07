@@ -1,4 +1,4 @@
-import { Image, IImageProps } from 'native-base';
+import { Image, IImageProps } from 'native-base'
 
 export function Flag({ ...rest }: IImageProps) {
   return (
